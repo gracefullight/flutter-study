@@ -11,6 +11,7 @@ flutter run # emultator 내 앱 실행
 - VSCode 로 개발 가능
 - `setState`
 - `material` 내장
+- 내장 포매터
 
 ## cons
 
