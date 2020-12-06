@@ -15,7 +15,7 @@ class MyApp extends StatefulWidget {
 class _State extends State<MyApp> {
   String _value = '';
 
-  Future _selectDate() async {
+  Future<void> _selectDate() async {
     // userchoice 를 기다려야하므로 async 여야함
     DateTime picked = await showDatePicker(
         context: context,
