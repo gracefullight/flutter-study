@@ -18,6 +18,10 @@ flutter run # emultator 내 앱 실행
 - `private` keyword 없음 
   > Unlike Java, Dart doesn’t have the keywords public, protected, and private. If an identifier starts with an underscore (_), it’s private to its library. For details, see Libraries and visibility.
 - 문법이 낯설음, Java + JS 느낌인데 TS 처럼 Strict 하지는 않은 느낌 (변경될 수 있음)
+  ``` dart
+  setState(() { }); // 화살표?
+  _value = 'Change: $value'; // single quote 템플릿?
+  ```
 
 ## questions
 
