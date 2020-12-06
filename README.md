@@ -26,3 +26,7 @@ flutter run # emultator 내 앱 실행
 ## questions
 
 - native 와의 접점에서 RN 대비 사용성이 있는가?
+
+## ref.
+
+- https://github.com/Solido/awesome-flutter
