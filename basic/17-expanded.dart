@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+// flutter_svg: ^0.19.1
 import 'package:flutter_svg/flutter_svg.dart';
 
 void main(List<String> args) {
