@@ -30,3 +30,4 @@ flutter run # emultator 내 앱 실행
 ## ref.
 
 - https://github.com/Solido/awesome-flutter
+- https://medium.com/flutter
