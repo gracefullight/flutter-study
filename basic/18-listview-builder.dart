@@ -46,6 +46,7 @@ class _State extends State<MyApp> {
             child: Column(children: <Widget>[
               Text('Countries', style: TextStyle(fontWeight: FontWeight.bold)),
               Expanded(
+                  // Automatically builds its child widgets with a template and a list.
                   child: ListView.builder(
                 itemBuilder: (BuildContext context, int index) {
                   String key = _countries.keys.elementAt(index);
