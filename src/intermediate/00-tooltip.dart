@@ -17,8 +17,6 @@ class _State extends State<MyApp> {
   void _onPressed() => setState(() => _value = DateTime.now().toString());
   @override
   Widget build(BuildContext context) {
-    // _getData();
-
     return Scaffold(
       appBar: AppBar(
         title: Text('Hello world'),
