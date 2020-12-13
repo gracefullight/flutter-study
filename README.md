@@ -21,10 +21,16 @@ flutter run # emultator 내 앱 실행
   > The new keyword became optional in Dart 2.
 - `'===' operator is not supported` `==` 로만 사용, 구조체 비교시 `identical` 사용
   > In general, consider carefully whether overriding operator == is a good idea. It can be expensive, especially if the properties it compares are themselves comparable with a custom operator ==. If you do override equality, you should use @immutable on the class hierarchy in question.
+- 생성자를 `const` 로 선언 시에 레퍼런스를 공유함
 - 문법이 낯설음, Java + JS 느낌인데 TS 처럼 Strict 하지는 않은 느낌 (변경될 수 있음)
   ``` dart
   setState(() { }); // 화살표?
   _value = 'Change: $value'; // single quote 템플릿?
+  // 생성자
+  class Dummy {
+    final String data;
+    Dummy({this.data});
+  }
   ```
 
 ## questions
