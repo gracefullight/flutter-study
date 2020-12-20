@@ -8,7 +8,7 @@ void main(List<String> args) {
 
 class MyApp extends StatefulWidget {
   @override
-  _State createState() => new _State();
+  _State createState() => _State();
 }
 
 class _State extends State<MyApp> {
