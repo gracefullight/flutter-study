@@ -87,6 +87,8 @@ class _State extends State<MyApp> {
                   RaisedButton(onPressed: _find, child: Text('Find')),
                   RaisedButton(onPressed: _read, child: Text('Read')),
                   RaisedButton(onPressed: _delete, child: Text('Delete')),
+                  RaisedButton(
+                      onPressed: openAppSettings, child: Text('Permissions')),
                 ],
               ),
             )));
